@@ -1,0 +1,26 @@
+Group 4: Pradeep Lamichhane and Teshi Waruingi
+Group Project
+CSCI-136 Section-2 
+Fall 2021
+
+
+Pradeep Lamichhane and Teshi Waruingi are both sophomore Computer Science majors. Our project goal was to simulate predicting stock prices and simulate trading singles for particular stocks. Our project is very relevant in the real world because the finance industry is huge and controls our economy. We completed the project in its entirety. But some improvements we could make is having our code take in multiple stocks simultaneously, not just one at a time.
+Demo
+
+Pradeep Lamichhane:
+We started the project trying to get all the datas for the different stocks. After collecting the datas and using it in the proper frame using pandas, we started analyzing the datas for the stock. We made different functions using coding with python to take input from the user and process the data for the year of the particular stock. I, along with my teammate, spent most of the time coding for the project. Later on, I tried getting the exponential moving averages with pandas for the given stock. I used HTML and tried to get the input from the user in the new weblink. After getting the input from the user, I pass on the input to the function that will return the graph for the given stock. I just took the input from the user and passed it into the code which takes in the name of the stock to return the graph of the stock. I got the string for the image and after converting it to base 64, I returned the image to the user. If the user types in the wrong name or the incorrect name of the stock, I pass the input to another file which returns the user with the image showing error using source code of it.
+
+
+Teshi Waruingi: 
+The contribution I made was the logic for stock prediction. I implemented the features of getting the stock information and making the dataframe more understandable for anyone to look at. I used the resources given to me to find the Simple and Exponential Moving averages. Using the exponential moving average logic, I created trading signals for the given stock. I also calculated how much of a return someone would get using this method and that was presented through the cumulative returns.I think we worked well as a group. We worked regularly every week and checked in with the professor to get guidance on our next steps. We constantly shared code and questions with each other which helped us be more effective in our work. If there was anything to change, maybe it would have been fun to come up with our own mathematical strategies on stock prediction rather than the ones from the resources we used.
+
+Citations:
+https://www.datacamp.com/community/tutorials/moving-averages-in-pandas
+https://github.com/prraaddeepp/stock_predictor/blob/main/stock_prediction.py
+https://finnhub.io/docs/api/stock-candles
+https://towardsdatascience.com/moving-averages-in-python-16170e20f6c
+https://blog.quantinsti.com/python-trading/
+tutorialspoint.com/how-to-show-matplotlib-in-flask
+
+
+
